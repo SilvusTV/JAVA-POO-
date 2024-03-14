@@ -9,7 +9,7 @@ public class Menu {
         System.out.println("Voici la liste des TP disponibles :");
 
         // Array contenant les noms des programmes
-        String[] programs = {"TP1.1", "TP1.2", "TP1.3", "TP1.4"};
+        String[] programs = {"TP1.1", "TP1.2", "TP1.3", "TP1.4", "TP1.5"};
 
         //Affiche les noms des programmes
         for (int i = 0; i < programs.length; i++) {
@@ -32,6 +32,9 @@ public class Menu {
                 break;
             case 4:
                 Courses.TP.tp1.TP14.main(args);
+                break;
+            case 5:
+                Courses.TP.tp1.TP15.main(args);
                 break;
             default:
                 System.out.println("Ce TP n'existe pas");
