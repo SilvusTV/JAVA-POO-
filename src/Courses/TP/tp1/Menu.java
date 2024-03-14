@@ -22,7 +22,7 @@ public class Menu {
         //Execute le programme choisi
         switch (choice) {
             case 1:
-                break;
+                Courses.TP.tp1.TP11.main(args);
             case 2:
                 break;
             default:
