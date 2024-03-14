@@ -24,7 +24,7 @@ public class TP12 {
         System.out.println("\n");
 
 
-
+        //Execute l'opérateur choisi et affiche le résultat
         int result;
         switch (choice){
             case 1:
@@ -50,22 +50,22 @@ public class TP12 {
     }
 
     //Fonction pour additionner 2 nombres
-    public static int addition(int a, int b){
+    private static int addition(int a, int b){
         return a + b;
     }
 
     //Fonction pour soustraire 2 nombres
-    public static int soustraction(int a, int b){
+    private static int soustraction(int a, int b){
         return a - b;
     }
 
     //Fonction pour multiplier 2 nombres
-    public static int multiplication(int a, int b){
+    private static int multiplication(int a, int b){
         return a * b;
     }
 
     //Fonction pour diviser 2 nombres
-    public static int division(int a, int b){
+    private static int division(int a, int b){
         return a / b;
     }
 }
