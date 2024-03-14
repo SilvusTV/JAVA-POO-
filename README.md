@@ -1,0 +1,2 @@
+- Ne pas oublier de faire de faire le menu pour chaque TP
+- Commentaires dans le code
