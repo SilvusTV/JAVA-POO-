@@ -8,7 +8,7 @@ public class TP14 {
     static DecimalFormat df = new DecimalFormat("#.####");
 
     public static void main(String[] args) {
-        System.out.println("\n ==== TP1.3 ==== \n");
+        System.out.println("\n ==== TP1.4 ==== \n");
         String[] calcul = {"Carré", "Rectangle", "Triangle rectangle", "Cercle", "Quart de cercle"};
 
         //Affiche et demande à l'utilisateur de choisir un calcul
