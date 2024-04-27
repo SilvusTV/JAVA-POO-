@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TP15 {
     static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main() {
         System.out.println("\n ==== TP1.5 ==== \n");
         //Demander à l'utilisateur de saisir un nombre
         System.out.println("Rentrer un nombre :");

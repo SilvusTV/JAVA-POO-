@@ -3,7 +3,7 @@ package Courses.TP.tp1;
 import java.util.Scanner;
 
 public class TP13 {
-    public static void main(String[] args) {
+    public static void main() {
         System.out.println("\n ==== TP1.3 ==== \n");
         Scanner sc = new Scanner(System.in);
         System.out.println("          B       \n" +

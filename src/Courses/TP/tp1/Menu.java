@@ -3,7 +3,7 @@ package Courses.TP.tp1;
 import java.util.Scanner;
 
 public class Menu {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.println("\n ======== \n");
         System.out.println("Voici la liste des TP disponibles :");
@@ -22,19 +22,19 @@ public class Menu {
         //Execute le programme choisi
         switch (choice) {
             case 1:
-                Courses.TP.tp1.TP11.main(args);
+                Courses.TP.tp1.TP11.main();
                 break;
             case 2:
-                Courses.TP.tp1.TP12.main(args);
+                Courses.TP.tp1.TP12.main();
                 break;
             case 3:
-                Courses.TP.tp1.TP13.main(args);
+                Courses.TP.tp1.TP13.main();
                 break;
             case 4:
-                Courses.TP.tp1.TP14.main(args);
+                Courses.TP.tp1.TP14.main();
                 break;
             case 5:
-                Courses.TP.tp1.TP15.main(args);
+                Courses.TP.tp1.TP15.main();
                 break;
             default:
                 System.out.println("Ce TP n'existe pas");

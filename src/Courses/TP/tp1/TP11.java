@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 
 public class TP11 {
-    public static void main(String[] args) {
+    public static void main() {
         System.out.println("\n ==== TP1.1 ==== \n");
         Scanner sc = new Scanner(System.in);
         // Demande à l'utilisateur d'écrire son message

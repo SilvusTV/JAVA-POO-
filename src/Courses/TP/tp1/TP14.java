@@ -7,7 +7,7 @@ public class TP14 {
     static Scanner sc = new Scanner(System.in);
     static DecimalFormat df = new DecimalFormat("#.####");
 
-    public static void main(String[] args) {
+    public static void main() {
         System.out.println("\n ==== TP1.4 ==== \n");
         String[] calcul = {"Carré", "Rectangle", "Triangle rectangle", "Cercle", "Quart de cercle"};
 
