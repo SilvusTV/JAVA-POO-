@@ -1,5 +1,7 @@
 package Courses.TP.tp2.Views;
 
+import Courses.TP.tp2.Controllers.Fibonacci;
+
 import java.util.List;
 import java.util.Scanner;
 
@@ -10,7 +12,7 @@ public class TP2_2 {
         int n;
         String detail;
         n = Utils.Utilitaires.secureScannerInt(scanner, "Veuillez entrer un nombre entier n : ");
-        List<Integer> fibonacci = Courses.TP.tp2.Controllers.TP2_2.controller(n);
+        List<Integer> fibonacci = Fibonacci.controller(n);
         
         do {
             detail = Utils.Utilitaires.scannerString(scanner, "\nVoulez-vous afficher le détail ? [oui/non] : ");

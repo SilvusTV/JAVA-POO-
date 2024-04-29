@@ -1,5 +1,7 @@
 package Courses.TP.tp2.Views;
 
+import Courses.TP.tp2.Controllers.Syracuse;
+
 import java.util.List;
 import java.util.Scanner;
 
@@ -16,7 +18,7 @@ public class TP2_1 {
         U0 = secureScannerInt(scanner, "\nEntrez la valeur de U0 ( U0 > 0 ) : ");
         
         //call the controller
-        syracuse = Courses.TP.tp2.Controllers.TP2_1.controller(U0);
+        syracuse = Syracuse.controller(U0);
         
         //display the syracuse suite
         for (int i = 0; i < syracuse.size(); i++) {

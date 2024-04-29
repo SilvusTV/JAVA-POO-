@@ -1,14 +1,14 @@
 package Courses.TP.tp2.Controllers;
 
-import Courses.TP.tp2.Models.Syracuse;
+import Courses.TP.tp2.Models.TSyracuse;
 
 import java.util.List;
 
 import static Utils.Math.isPair;
 
-public class TP2_1 {
+public class Syracuse {
     public static List<Integer> controller(int departValue) {
-        Syracuse syracuse = new Syracuse(departValue, 0);
+        TSyracuse syracuse = new TSyracuse(departValue, 0);
         int actualValue = departValue;
         while (actualValue != 1) {
             if (isPair(actualValue)) {

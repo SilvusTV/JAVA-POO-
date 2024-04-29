@@ -3,12 +3,12 @@ package Courses.TP.tp2.Models;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class Syracuse {
+public final class TSyracuse {
     private int departValue;
     private List<Integer> syracuseValues;
     private int syracuseIterations;
 
-    public Syracuse(int departValue, int syracuseIterations) {
+    public TSyracuse(int departValue, int syracuseIterations) {
         List<Integer> syracuseList = new ArrayList<>();
         syracuseList.add(departValue);
         this.departValue = departValue;
