@@ -1,15 +1,19 @@
 package Courses.TP.tp2.Controllers;
 
-import java.util.List;
+import Courses.TP.tp2.Models.TFibonacci;
+
 
 public class Fibonacci {
-    public static List<Integer> controller(int n) {
-        List<Integer> fibonacci = new java.util.ArrayList<>();
+    public static TFibonacci controller(int n) {
+        TFibonacci Fibonacci = new TFibonacci(0, new java.util.ArrayList<>());
+
         for (int i = 0; i <= n; i++) {
-            fibonacci.add(Fibonacci(i));
+            Fibonacci.addFibonacciValueToList(Fibonacci(i));
+            Fibonacci.incrementTotalIterations();
         }
-        return fibonacci;
+        return Fibonacci;
     }
+
     private static int Fibonacci(int n) {
         if (n <= 1) {
             return n;
