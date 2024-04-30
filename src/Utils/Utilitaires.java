@@ -31,4 +31,12 @@ public class Utilitaires {
         System.out.print(message);
         return scanner.nextLine();
     }
+    
+    static public int[] randomArray(int size) {
+        int[] array = new int[size];
+        for (int i = 0; i < size; i++) {
+            array[i] = (int) (java.lang.Math.random() * 1000);
+        }
+        return array;
+    }
 }

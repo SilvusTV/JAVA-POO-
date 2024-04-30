@@ -7,7 +7,7 @@ import static Utils.Utilitaires.secureScannerInt;
 
 public class Menu {
     public static void execute() {
-        String[] ListTP = {"TP2.1", "TP2.2", "TP2.3"};
+        String[] ListTP = {"TP2.1", "TP2.2", "TP2.3", "TP2.4"};
         Scanner sc = new Scanner(System.in);
         int choice;
         String quit;
@@ -32,6 +32,9 @@ public class Menu {
                         break;
                     case 3:
                         Courses.TP.tp2.Views.TP2_3.view();
+                        break;
+                    case 4:
+                        Courses.TP.tp2.Views.TP2_4.view();
                         break;
                     default:
                         System.out.println("Ce TP n'existe pas");
