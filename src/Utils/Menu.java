@@ -8,7 +8,7 @@ public class Menu {
         int choice;
         String quit;
         // Array contenant les noms des programmes
-        String[] programs = {"TP1", "TP2"};
+        String[] programs = {"TP1", "TP2", "TP3"};
         do {
             try {
                 System.out.println("Voici la liste des programmes disponibles :");
@@ -29,13 +29,16 @@ public class Menu {
                     case 2:
                         Courses.TP.tp2.Menu.execute();
                         break;
+                    case 3:
+                        Courses.TP.tp3.Menu.execute();
+                        break;
                     default:
                         System.out.println("Ce programme n'existe pas");
                         break;
                 }
             } catch (Exception e) {
                 System.out.flush();
-                System.err.println("une erreur a été détectée => " + e.toString());
+                System.err.println("une erreur a été détectée => " + e);
                 System.err.flush();
             }
             System.out.println();
